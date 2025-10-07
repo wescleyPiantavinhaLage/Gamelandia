@@ -78,19 +78,7 @@ a.nav-item.active {
     border-bottom: 2px solid #648fb8;
 }
 
-.menumobile {
-    display: none;
-    cursor: pointer;
 
-}
-
-.menumobile div {
-    width: 25px;
-    height: 3px;
-    background-color: white;
-    margin: 5px;
-
-}
 
 @media (max-width: 570px) {
     .header {
@@ -129,10 +117,9 @@ a.nav-item.active {
 h1 {
     font-size: 30px;
     text-align: center;
-    color: #46A69C;
     margin: 40px;
     font-weight: bolder;
-    text-shadow: 2px 2px 4px #5c9690bd;
+
 }
 
 
@@ -370,4 +357,26 @@ form button:hover {
 .button-container {
     display: flex;
     justify-content: space-between;
+}
+
+/* sobre*/
+
+.sobreformatação{
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+
+.sobreformatação p {
+      margin-bottom: 0.3rem;
+
+}
+.sobreformatação li {
+    margin-left: 2.5rem;
+    margin-top: 0.7rem;
+     margin-bottom: 0.3rem;
+}
+.sobreformatação a {
+   
+    color:#333
+   
 }
